@@ -1,0 +1,59 @@
+.head {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.head1{
+  margin: 20px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.head1:hover{
+  text-decoration: underline;
+}
+
+.btm{
+  padding: 0;
+  border: 0px;
+  border-radius: 50%;
+  width: 100px;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.btm1{
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.btm1:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.GOO{
+  height: 30px;
+  width: 250px;
+  margin-top: 20px;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.FOO{
+  margin-top: 20px;
+  display: block;
+}
